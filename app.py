@@ -189,7 +189,7 @@ with gateway_side:
     st.markdown("</div>", unsafe_allow_html=True)
 
 # ==========================================
-# 📈 REGIONAL DISPUTE TREND LEDGER (VC METRICS GRID)
+# 📈 REGIONAL DISPUTE TREND LEDGER (FIXED DATA VECTORS)
 # ==========================================
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<div style='font-size: 1.1rem; font-weight: 700; color: #0F4A28; margin-bottom: 5px;'>📈 LONGITUDINAL REGIONAL RISK AGGREGATIONS</div>", unsafe_allow_html=True)
@@ -200,7 +200,7 @@ st.line_chart(pd.DataFrame({
     "Hyderabad Expansion Corridors":,
     "Amaravati Capital Spine":,
     "Bengaluru Tech Hubs":,
-    "Dubai Marina Freezone Window": [4, 7, 11, 18, 22, 30]
+    "Dubai Marina Freezone Window": [5, 9, 12, 18, 22, 31]
 }, index=years), use_container_width=True)
 
 # ==========================================
