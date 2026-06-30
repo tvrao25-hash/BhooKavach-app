@@ -200,7 +200,7 @@ st.line_chart(pd.DataFrame({
     "Hyderabad Expansion Corridors":,
     "Amaravati Capital Spine":,
     "Bengaluru Tech Hubs":,
-    "Dubai Marina Freezone Window": [3, 5, 8, 14, 32, 58]
+    "Dubai Marina Freezone Window": [4, 9, 12, 19, 28, 41]
 }, index=years), use_container_width=True)
 
 # ==========================================
